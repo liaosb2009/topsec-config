@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+    
+---
+spring:
+  profiles: dev
+  application:
+    name:  topsec-config-my-dev
+    
+---
+spring:
+  profiles: test
+  application:
+    name:  topsec-config-my-test 
